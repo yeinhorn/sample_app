@@ -10,6 +10,7 @@ gem 'pg', '0.15.1'
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
+  gem 'sqlite3', '1.3.7'
 end
 
 group :test do
@@ -20,6 +21,7 @@ group :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'sqlite3', '1.3.7'
 end
 
 gem 'sass-rails', '4.0.0'
